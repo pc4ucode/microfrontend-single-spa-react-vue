@@ -1,0 +1,39 @@
+{
+  "name": "microfrontend-single-spa-react-vue",
+  "version": "1.0.0",
+  "description": "Implementação de uma pequena versão simplificado de micro frontend utilizando Single SPA para afins de estudos, no projeto você encontrara uma implementação de um contador em React e um todo-list em Vue separados por rotas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pc4ucode/microfrontend-single-spa-react-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pc4ucode/microfrontend-single-spa-react-vue/issues"
+  },
+  "homepage": "https://github.com/pc4ucode/microfrontend-single-spa-react-vue#readme",
+  "dependencies": {
+    "single-spa": "^5.9.4",
+    "single-spa-react": "^4.6.1",
+    "single-spa-vue": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.2",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.7.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
