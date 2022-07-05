@@ -1,7 +1,7 @@
 
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     mode: 'development',
@@ -43,9 +43,9 @@ module.exports = {
             }
         ]
     },
-    node: {
-        fs: 'empty'
-    },
+    // node: {
+    //     fs: 'empty'
+    // },
     resolve: {
         modules: [path.resolve(__dirname, 'node_modules')]
     },
